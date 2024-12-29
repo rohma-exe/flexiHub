@@ -7,7 +7,7 @@ const upload = async (file) => {
 
   try {
     const res = await axios.post(
-        "https://api.cloudinary.com/v1_1/dk5trs6zr/image/upload",
+        "",
         // import.meta.env.VITE_UPLOAD_LINK, 
         data);
 
